@@ -1,0 +1,8 @@
+当前目录下执行CMD
+
+输入：java -Dserver.port=8718 -Dcsp.sentinel.dashboard.server=localhost:8718 -Dproject.name=sentinel-dashboard -Dcsp.sentinel.api.port=8719 -jar sentinel-dashboard-1.8.7.jar 
+
+浏览器打开：localhost:8718 
+
+账号：sentinel
+密码：sentinel

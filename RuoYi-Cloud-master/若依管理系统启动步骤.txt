@@ -1,0 +1,35 @@
+启动：Nacos 
+	在D:\nacos\bin目录下执行CMD
+	运行：startup.cmd -m standalone 
+	访问地址：http://192.168.190.119:8848/nacos/index.html
+	用户名：nacos 密码：nacos
+
+启动：Redis
+	运行 D:\Redis 目录下的 redis-server.exe
+
+IntelliJ IDEA中打开 RuoYi-Cloud-master 
+	RuoYiGatewayApplication(网关模块 必须) 
+	位置:RuoYi-Cloud-master/ruoyi-gateway/src/main/java/com.ruoyi.gateway/RuoYiGatewayApplication
+	
+	RuoYiAuthApplication(认证模块 必须)
+	位置:RuoYi-Cloud-master/ruoyi-auth/src/main/java/com.ruoyi.auth/RuoYiAuthApplication
+
+	RuoYiSystemApplication(系统模块 必须)
+	位置:RuoYi-Cloud-master/ruoyi-modules/ruoyi-system/src/main/java/com.ruoyi.system/RuoYiSystemApplication
+
+	RuoYiMonitorApplication(监控中心 可选)
+	RuoYiGenApplication(代码生成 可选)
+	RuoYiJobApplication(定时任务 可选)
+	RuoYiFileApplication(文件服务 可选)
+
+VSCode打开ruoyi-ui文件
+	位置: RuoYi-Cloud-master\ruoyi-ui
+    终端输入:npm run dev
+    
+浏览器打开:http://localhost:81/
+	用户名:admin
+	密码:admin123
+
+
+
+	
